@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>DojoWheatheer</h1>
+        <ul class="Cytis" onclick="alertaCiudad(this)">
+            <li> Burbank</li>
+            <li> Chicago</li>
+            <li> Dallas</li>
+        </ul>
+    </div>
+    <main class="container">
+        <div class="cabezera">
+            <p class="currentCity">San Jose</p>
+                
+            <div class="temperatures">
+                show temperature in 
+                <select onchange="modificarTemperatura(this)" class="values-temperatures">
+                    <option class="°C">°C</option>
+                    <option class="°F">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="days">
+            <div class="day1">
+                <div class="nameToday">Today</div>
+                <img  class="imgRain" src="./assets/some_rain.png" alt="rain">
+                <div class="nameRain">some rain</div>
+                <div class="medidaTemperatura1">
+                    <span id="tempRain" >24</span> <p class="grado">°</p> <span id="tempRain2">18</span> <p class="grado2">°</p>
+                </div>
+            </div>
+            <div class="day2">
+                <p class="nametomorrow">Tomorrow</p>
+                <img  class="imgSun" src="./assets/some_sun.png" alt="sun">
+                <div class="nameSun">some rain</div>
+                <div class="medidaTemperatura2">
+                    <span id="tempSun" >27</span> <p class="grado">°</p> <span id="tempSun2">19</span> <p class="grado2">°</p>
+                </div>
+            </div>
+            <div class="day3">
+                <p class="namefriday">Friday</p>
+                <img  class="imgClouds" src="./assets/some_clouds.png" alt="clouds">
+                <div class="nameCloud">some rain</div>
+                <div class="medidaTemperatura3">
+                    <span id="tempCloud" >21</span> <p class="grado">°</p> <span id="tempCloud2">16</span> <p class="grado2">°</p>
+                </div>
+            </div>
+            <div class="day4">
+                <p class="nameSaturday">Saturday</p>
+                <img  class="imgSun2" src="./assets/some_sun.png" alt="sun">
+                <div class="nameSun2">some rain</div>
+                <div class="medidaTemperatura4">
+                    <span id="tempSunOne" >26</span>  <p class="grado">°</p> <span id="tempSunTwo">21</span> <p class="grado2">°</p>
+                </div>
+            </div>
+        </div>
+        <div class="cookies">
+            <img class="imgCookies" src="./assets/cookie.png" alt="cookies">
+            <div class="contentCookies">
+                <h2>Stop! Cookie time</h2>
+                We use cookies (sadly not the edible ones) to personalize
+                content and ads, to provide social media features and to
+                analyse our traffic. <a href="#">Read more...</a>
+            </div>
+            <button class="aceptCookies" onclick="removerCookies(this)"> I Accept</button>
+        </div>
+        <script src="./script.js"></script>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,109 @@
+.nav{
+    background-color:cornflowerblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Cytis{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 35px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cabezera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    width: 600px;
+}
+.values-temperatures{
+    margin-left: 5px;
+    border: 2px solid black;
+}
+.days{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    gap: 15px;
+}
+.day1,.day2,.day3,.day4{
+    height: 300px;
+    border: 2px solid black;
+    width: 200px;  
+    background-color: #e7e7e7;
+    position: relative;
+}
+.nameToday,.nametomorrow,.namefriday,.nameSaturday{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.imgRain{
+    margin-top: 20px;
+}
+.imgRain,.imgSun,.imgClouds,.imgSun2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 30px;
+    display: flex;
+}
+.nameRain,.nameCloud,.nameSun,.nameSun2{
+    margin-top: 150px;
+    margin-left: 35px;
+}
+.medidaTemperatura1,.medidaTemperatura2,.medidaTemperatura3,.medidaTemperatura4{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+}
+.cookies{
+    border: 2px solid black;
+    width: 590px;
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    background-color: gainsboro;
+    left: 30%;
+    bottom: 0;
+}
+.imgCookies{
+    width: 60px;
+    padding: 20px;
+}
+.contentCookies{
+    width: 400px;
+}
+.aceptCookies{
+    height: 20px;
+    margin-top: 50px;
+    background-color: rgb(82, 177, 208);
+    box-shadow: 2px 3px black;
+}
+#tempRain,#tempSun,#tempCloud,#tempSunOne{
+    margin-left: 20px;
+}
+#tempRain2,#tempSun2,#tempCloud2,#tempSunTwo{
+    margin-left: 70px;
+}
+.grado{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 37px;
+}
+.grado2{
+    position: absolute;
+    margin-left: 123px;
+    margin-top: 0px;
+}
